@@ -1,0 +1,95 @@
+body {
+    background-image: url('https://i.imgur.com/TLB9pXG.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps background still while scrolling */
+    margin: 0;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    color: #f4f4f4;
+    padding: 50px 20px;
+    background: #f4f4f4(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);          /* Blurs elements behind the box */
+  -webkit-backdrop-filter: blur(10px);  /* For Safari support */
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    color: #f4f4f4;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    color: #f4f4f4;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
